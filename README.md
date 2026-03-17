@@ -1,16 +1,108 @@
-# React + Vite
+# 🏥 Clinic Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Clinic Management System** built using **React (Vite)** and **Tailwind CSS**, designed to manage patient records, appointments, and prescriptions efficiently.
 
-Currently, two official plugins are available:
+🔗 **Live Project:** https://clinic-system-dvim.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 👨‍⚕️ Doctor and Patient Management
+* 📅 Appointment Scheduling
+* 💊 Prescription Management
+* 🔐 Authentication System (Login/Register)
+* 📊 Clean Dashboard UI
+* ⚡ Fast and Responsive Design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **Frontend:** React (Vite)
+* **Styling:** Tailwind CSS
+* **Routing:** React Router
+* **Deployment:** Vercel
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/clinic-management.git
+cd clinic-management
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed on **Vercel**.
+
+To deploy your own:
+
+1. Push code to GitHub
+2. Import project in Vercel
+3. Set build command: `npm run build`
+4. Set output directory: `dist`
+
+---
+
+## 🧠 Key Learnings
+
+* Resolved dependency conflicts (Vite & Tailwind)
+* Fixed Vercel routing issues (SPA handling)
+* Debugged MIME type errors in production
+* Understood deployment differences (Local vs Production)
+
+---
+
+## 📸 Screenshots
+
+*Add your project screenshots here*
+
+---
+
+## 📌 Future Improvements
+
+* Role-based access (Admin / Doctor / Patient)
+* Backend integration (ASP.NET / Node.js)
+* Notifications (WhatsApp / SMS)
+* Advanced analytics dashboard
+
+---
+
+## 👨‍💻 Author
+
+**Haresh Sambad**
+
+* 🎓 CSE Student
+* 💡 Passionate about Full Stack Development
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, please ⭐ the repository!
+
+---
